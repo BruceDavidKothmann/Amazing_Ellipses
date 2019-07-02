@@ -10,7 +10,7 @@ classdef ellipse < handle
     end
     
     methods
-        function this = ellipse(x,y,xscale,yscale, q)
+        function this = ellipse(x,y,xscale,yscale, q, eColor)
             this.xc = x;
             this.yc = y;
             this.a = xscale;
